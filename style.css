@@ -1,0 +1,66 @@
+.container-fluid {
+	background-image: url("images/family.jpg");
+	height: 100%;
+}
+
+#header {
+	margin-top: 2%;
+	padding: 1em;
+	background: rgba(255, 255, 51, 0.6);
+	margin-bottom: 2em;
+}
+
+.header {
+	font-size: 2.6em;
+	font-weight: bold;
+	margin-bottom: 2em;
+}
+
+.dropdown {
+	display: inline-block; 
+}
+
+.selection {
+	background: rgba(255, 255, 255, 0.6);
+}
+
+.dish {
+	background: rgba(255, 255, 255, 0.6);
+	padding: 0.5em;
+}
+
+.sidebar {
+	background: rgba(255, 255, 255, 1);
+	padding: 0.5em;
+	height: 100%;
+}
+
+#info {
+	margin-top: 8%;
+	margin-bottom: 40%;
+	background: rgba(255, 255, 255, 0.6);
+	padding: 1em;
+}
+
+.col-xs-15 {
+    width: 20%;
+    float: left;
+}
+@media (min-width: 768px) {
+.col-sm-15 {
+        width: 20%;
+        float: left;
+    }
+}
+@media (min-width: 992px) {
+    .col-md-15 {
+        width: 20%;
+        float: left;
+    }
+}
+@media (min-width: 1200px) {
+    .col-lg-15 {
+        width: 20%;
+        float: left;
+    }
+}
